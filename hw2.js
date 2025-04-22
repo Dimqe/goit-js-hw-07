@@ -35,8 +35,3 @@ const galleryItems = images
 galleryList.insertAdjacentHTML("beforeend", galleryItems);
 
 
-document.querySelectorAll('.gallery-img').forEach(img => {
-    img.style.width = '200px';
-    img.style.height = 'auto';
-  });
-  
