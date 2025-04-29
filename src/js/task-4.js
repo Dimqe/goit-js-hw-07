@@ -13,7 +13,7 @@ form.addEventListener("submit", (event) => {
   const password = passwordInput.value.trim();
 
   if (email === "" || password === "") {
-    alert("Усі поля форми мають бути заповнені");
+    alert("Всі поля форми мають бути заповнені");
     return;
   }
 
